@@ -1,0 +1,38 @@
+server:
+  port: 8888
+spring:
+  servlet:
+    multipart:
+      # 单个文件的最大值
+      max-file-size: 5MB
+      # 上传文件总的最大值
+      max-request-size: 100MB
+  aop:
+    auto: true
+  application:
+    name: my_blog_api
+  #    数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/ms_blog?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: licheng1223
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#    redis配置
+  redis:
+    host: localhost
+    port: 6379
+#    mybatis-plus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    map-underscore-to-camel-case: true
+    log-prefix: mybatis-plus
+  global-config:
+    db-config:
+      table-prefix: ms_
+  mapper-locations: classpath*:/mappers/*.xml
+qiniu:
+  key:
+    access: SVrfDrKftgjocpcsfgZ8TbxWhkf01r7NlvviFx35
+    Secret: bfddmL0_fMgJH8i4Ie3U5Nzs6CdOFvY-fgz4ur9t
