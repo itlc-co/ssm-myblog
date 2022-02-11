@@ -30,7 +30,7 @@ ssm整合以及springboot，mybatis-plus等技术实现的个人博客系统后�
 
 >idea等开发工具导入项目
 
-![image-20220210235853423](readme.assets/image-20220210235853423.png)
+![image-20220210235853423](http://r74iy412p.hn-bkt.clouddn.com/image-20220210235853423.png)
 
 >启动前端
 
@@ -50,9 +50,9 @@ java -jar my_blog_api-0.0.1-SNAPSHOT.jar
 
 - 非命令行
 
-![image-20220211000044901](readme.assets/image-20220211000044901.png)
+![image-20220211000044901](http://r74iy412p.hn-bkt.clouddn.com/image-20220211000044901.png)
 
-![image-20220211000135772](readme.assets/image-20220211000135772.png)
+![image-20220211000135772](http://r74iy412p.hn-bkt.clouddn.com/image-20220211000135772.png)
 
 >配置数据库
 
@@ -65,7 +65,7 @@ source myblog.sql
 
 >测试
 
-![image-20220211000646993](readme.assets/image-20220211000646993.png)
+![image-20220211000646993](http://r74iy412p.hn-bkt.clouddn.com/image-20220211000646993.png)
 
 ## 感谢
 
@@ -73,4 +73,6 @@ source myblog.sql
 - 大佬教学 ==> [教学视频](https://www.bilibili.com/video/BV1Gb4y1d7zb)
 
 ==膜拜大佬==
+
+
 
